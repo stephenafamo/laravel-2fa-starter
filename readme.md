@@ -4,7 +4,11 @@ This is a fresh laravel application with the default authentication modified to 
 
 The package [`pragmarx/google2fa-laravel`](https://github.com/antonioribeiro/google2fa-laravel) was used to generate and authenticate the secret keys, while [`bacon/bacon-qr-code`](https://github.com/Bacon/BaconQrCode) was used to generate the inline styles.
 
+## Getting started
+
 You can simply clone, change the environment variables and run migrations to begin.
+
+## Usage
 
 During registration, users will be forced to set up their Google Authenticator by scanning a barcode or typing the secret key.
 
