@@ -8,7 +8,7 @@
                 <div class="panel-heading">Set up Google Authenticator</div>
 
                 <div class="panel-body" style="text-align: center;">
-                    <p>Set up you 2FA by scanning the barcode below. Alternatively, you can use the code {{ session('registration_data.google2fa_secret') }}</p>
+                    <p>Set up you 2FA by scanning the barcode below. Alternatively, you can use the code {{ $secret }}</p>
                     <div>
                         <img src="{{ $QR_Image }}">
                     </div>
