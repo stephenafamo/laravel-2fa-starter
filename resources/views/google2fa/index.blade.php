@@ -15,7 +15,7 @@
                             <label for="one_time_password" class="col-md-4 control-label">One Time Password</label>
 
                             <div class="col-md-6">
-                                <input id="one_time_password" type="number" class="form-control" name="one_time_password" required>
+                                <input id="one_time_password" type="number" class="form-control" name="one_time_password" autofocus required>
                             </div>
                         </div>
 
